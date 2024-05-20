@@ -12,7 +12,7 @@ Note, `solidify` is the correct and more-convenient alternative to face extrudin
 But `solidify` will get the same issue due to the same reason.
 
 ## Eventual solution
-It turns out the faces are extruded to different direction because there are overlapping vertices and edges, we can simply merge those vertices by `Ctrl` + `m` and select merging by distance (with a good distance to merge, note the default value could be too small).
+It turns out the faces are extruded to different direction because there are overlapping vertices and edges, we can simply merge those vertices by `m` and select merging by distance (with a good distance to merge, note the default value could be too small).
 Extruding multiple faces then should be working as expected (to the same direction).
 
 Cheers!
