@@ -24,8 +24,8 @@ After which, z-length can be then set in Cura not-uniformally if needed.
 - line width: 0.4mm
 - wall thicness: 0.5mm
 
-## Comment
+## Comment & Note
 - I was lucky that this name tag can fit into the case with basically no extra space
 - Note the software decided x,z dimensions of the name tag is a bit more than 1.5mm (but less than 2mm) smaller than the x,z dimentions of the container
     - y dimentsion of the name tag is a bit less than 1mm smaller than the case
-
+- The inner x-length calculation is kind of wrong because the coners of the container was beveled and thus I need to calculate the shortest distancebetween the 2 corners instead of the longest distance as I did in the sample above
