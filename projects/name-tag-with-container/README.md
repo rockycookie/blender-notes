@@ -14,6 +14,7 @@ After which, z-length can be then set in Cura not-uniformally if needed.
         - Case inner x-length: ((200 - 2 * 6.23061) / 200) * 82 ~= 76.891mm
         - Case inenr y-length: 76.891mm / 2 ~= 38.445
         - Case inner z-length: (52 / 60) * 22.96 ~= 19.899mm 
+    - infill density: 20%
 - name tag (KevinP & KevinZ)
     - x-length: 75mm
     - y-length: 75mm / 2 = 37.5
