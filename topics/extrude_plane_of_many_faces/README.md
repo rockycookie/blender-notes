@@ -17,7 +17,8 @@ But `solidify` will get the same issue due to the same reason.
 ## Eventual solution
 It turns out the faces are extruded to different directions because
 
-1. There are overlapping vertices and edges --> We can simply merge those vertices by `Ctrl` + `m` and select merging by distance (with a good distance to merge, note the default value could be too small).
+1. There are overlapping vertices and edges --> We can simply merge those vertices by pressing `m` and select merging by distance (with a good distance to merge, note the default value could be too small).
+    - Note when cutting through a rectangle, merging sometimes does not help; it worked for me when I removed all the lines and faces within the rectangle and jsut fill the rectangle by its four vertices
 2. If a line cross a face but does not divide the face --> Fix is simply to make the line divide the face into 2; currently I am deleting the face and fill the 2 divided faces again
 
 Extruding multiple faces (Solidify) then should be working as expected (to the same direction).
